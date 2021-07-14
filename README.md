@@ -1,7 +1,7 @@
 # Currency Exchange API – NodeJS
 
 Objective: 
-To expose this API for consumption by a UI
+Expose API for consumption by a UI
 
 ## CI/CD with Google Cloud Build and Cloud Run:
 
