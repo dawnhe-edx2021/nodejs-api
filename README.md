@@ -4,24 +4,20 @@ docker run -d -p 8080:8080 u1ih/nodejs-api
 
 curl -i http://localhost:8080/fx
 
-CI/CD pipeline implemented using GitHub Actions:
+CI/CD with Google Cloud Build and Cloud Run:
 
-* create docker container
-* push to gcr.io container registry
-* deploy to Google Cloud Run (knative / PaaS)
+* builds docker image on Cloud Build
+* pushes docker image into Container Registry
+* deploys docker image on Cloud Run
 
-Live endpoint available at: [https://nodejsapi-tgihgzgplq-uc.a.run.app/](https://nodejsapi-tgihgzgplq-uc.a.run.app/) [https://gcp2-s4zqrwobhq-as.a.run.app]
+Live endpoint available at: [https://gcp2-s4zqrwobhq-as.a.run.app] (https://gcp2-s4zqrwobhq-as.a.run.app) 
 
-[https://nodejsapi-tgihgzgplq-uc.a.run.app/fx](https://nodejsapi-tgihgzgplq-uc.a.run.app/fx)
+Pre-requisites:
 
+* Google Cloud account
+* GitHub account
 
-The CI/CD build workflow needs documentation. For now, here is how you connect it to GCP: [https://gcp-examquestions.com/ci-cd-solutions-deploy-to-google-cloud-run-using-github-actions/](https://gcp-examquestions.com/ci-cd-solutions-deploy-to-google-cloud-run-using-github-actions/)
+You'll also need to enable the following APIs in Google Cloud:
+* Cloud Run
+* Cloud Build 
 
-In order for this to be provisioned on your Google Cloud instance, you need to make sure you create/update these GitHub secrets:
-
-* GCP_APPLICATION
-* GCP_CREDENTIALS
-* GCP_EMAIL
-* GCP_PROJECT
-
-You'll also need to activate a couple of APIs in Google Cloud, the first deployment will probably fail and point you into the right direction. Alternatively, you could deploy the first version manually.
