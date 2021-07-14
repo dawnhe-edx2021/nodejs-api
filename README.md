@@ -4,7 +4,7 @@ Objective:
 
 Expose API for consumption by a UI
 
-## CI/CD with Google Cloud Build and Cloud Run:
+CI/CD with Google Cloud Build and Cloud Run:
 
 * builds docker image with Cloud Build
 * pushes docker image into Container Registry
@@ -26,7 +26,7 @@ You also need to enable the following APIs in Google Cloud:
 * Cloud Run
 * Cloud Build 
 
-## To run on localhost:
+To run on localhost:
 ```
 docker run -d -p 8080:8080 gcr.io/lateral-booking-317103/github.com/dawnhe-edx2021/nodejs-api
 
