@@ -28,7 +28,7 @@ You also need to enable the following APIs in Google Cloud:
 
 ## To run on localhost:
 ```
-docker run -d -p 8080:8080 u1ih/nodejs-api
+docker run -d -p 8080:8080 gcr.io/lateral-booking-317103/github.com/dawnhe-edx2021/nodejs-api
 
 curl -i http://localhost:8080/fx
 ```
