@@ -13,6 +13,7 @@ Expose API for consumption by a UI
 Live endpoint available at: 
 
 [https://gcp2-s4zqrwobhq-as.a.run.app](https://gcp2-s4zqrwobhq-as.a.run.app)
+
 [https://gcp2-s4zqrwobhq-as.a.run.app/fx](https://gcp2-s4zqrwobhq-as.a.run.app/fx)
 
 Pre-requisites:
