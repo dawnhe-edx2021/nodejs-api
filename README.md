@@ -25,8 +25,8 @@ You also need to enable the following APIs in Google Cloud:
 * Cloud Build 
 
 ## To run on localhost:
-``
+```
 docker run -d -p 8080:8080 u1ih/nodejs-api
 
 curl -i http://localhost:8080/fx
-``
+```
