@@ -2,7 +2,7 @@
 
 Objective:
 
-Expose API for consumption by a UI
+* to expose API for consumption
 
 CI/CD with Google Cloud Build and Cloud Run:
 
