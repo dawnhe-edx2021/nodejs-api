@@ -10,7 +10,7 @@ CI/CD with Google Cloud Build and Cloud Run:
 * pushes docker image into Container Registry
 * deploys docker image to Cloud Run
 
-Live endpoint available at: 
+Live endpoints available at: 
 
 [https://gcp2-s4zqrwobhq-as.a.run.app](https://gcp2-s4zqrwobhq-as.a.run.app)
 
@@ -21,7 +21,7 @@ Pre-requisites:
 * Google Cloud account
 * GitHub account
 
-You also need to enable the following APIs in Google Cloud:
+You will also need to enable the following APIs in Google Cloud:
 
 * Cloud Run
 * Cloud Build 
