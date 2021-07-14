@@ -10,7 +10,7 @@ CI/CD pipeline implemented using GitHub Actions:
 * push to gcr.io container registry
 * deploy to Google Cloud Run (knative / PaaS)
 
-Live endpoint available at: [https://nodejsapi-tgihgzgplq-uc.a.run.app/](https://nodejsapi-tgihgzgplq-uc.a.run.app/)
+Live endpoint available at: [https://nodejsapi-tgihgzgplq-uc.a.run.app/](https://nodejsapi-tgihgzgplq-uc.a.run.app/) [https://gcp2-s4zqrwobhq-as.a.run.app]
 
 [https://nodejsapi-tgihgzgplq-uc.a.run.app/fx](https://nodejsapi-tgihgzgplq-uc.a.run.app/fx)
 
