@@ -25,7 +25,7 @@ app.get("/fx", (req, res, next) => {
  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
  var dateTime = date+' '+time;
 
- res.json({"sell": "687." + rand1, "timestamp_test1": dateTime, "buy": "587." + rand2});
+ res.json({"sell": "687." + rand1, "timestamp_test2": dateTime, "buy": "587." + rand2});
 });
 
 app.get("/random", (req, res, next) => {
